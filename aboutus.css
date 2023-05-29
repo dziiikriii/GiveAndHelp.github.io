@@ -1,0 +1,167 @@
+.navbar {
+    background-color: #fff;
+    box-shadow: 0px 4px 18px -7px rgba(0, 0, 0, 0.15);
+    position: fixed;
+    /* overflow: hidden; */
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+  }
+  
+  .navbar .navbar-brand {
+    padding-left: 30px;
+    font-weight: bold;
+    font-size: 22px;
+  }
+  
+  .navbar .navbar-brand img {
+    margin-right: 20px;
+  }
+  
+  .navbar .navbar-nav {
+    margin-right: -10px;
+    font-weight: 500;
+    font-size: 16px;
+  }
+  
+  .navbar .navbar-nav a {
+    margin-right: 50px;
+  }
+  
+  .navbar .navbar-nav .login {
+    background-color: var(--primary);
+    color: var(--bg);
+    border-radius: 25px;
+    width: 85px;
+    text-align: center;
+  }
+  :root {
+    --primary: #61b3ff;
+    --bg: #f6fbff;
+    --text: #1e1e1e;
+  }
+  .satu {
+    position: absolute;
+    width: 720px;
+    height: 96px;
+    left: calc(50% - 720px/2);
+    top: 160px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 96px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+    }
+
+    .dua {position: absolute;
+    width: 441px;
+    height: 60px;
+    left: 91px;
+    top: 316px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    /* identical to box height */
+    
+    
+    color: #000000;}
+    .tiga {
+      position: absolute;
+      width: 719px;
+      height: 144px;
+      left: 91px;
+      top: 404px;
+      
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 36px;
+      
+      color: #000000;
+    }
+
+    .empat {
+      position: absolute;
+      width: 142px;
+      height: 120px;
+      left: 1046px;
+      top: 324px;
+      
+      background: url(giveandhelp-high-resolution-logo-color-on-transparent-background.png);
+     
+    }
+
+    .lima {
+      position: absolute;
+      width: 284px;
+      height: 60px;
+      left: 633px;
+      top: 605px;
+      
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 40px;
+      line-height: 60px;
+      /* identical to box height */
+      color: #000000;
+    }
+
+    .enam {      
+      position: absolute;
+      width: 719px;
+      height: 180px;
+      left: 633px;
+      top: 693px;
+      
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 36px;
+      
+      color: #000000;
+
+    }
+    .tujuh {
+      position: absolute;
+      width: 303px;
+      height: 86px;
+      left: 965px;
+      top: 454px;
+      
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 44px;
+      line-height: 66px;
+      
+      color: #1E1E1E;
+      
+    }
+   .delapan {
+    position: absolute;
+    width: 308px;
+    height: 308px;
+    left: 150px;
+    top: 597px;
+   }
+   .sembilan {
+    position: absolute;
+    width: 101px;
+    height: 101px;
+    left: 1281px;
+    top: 869px;
+
+   }
+  

@@ -1,0 +1,455 @@
+:root {
+  --primary: #61b3ff;
+  --bg: #f6fbff;
+  --text: #1e1e1e;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  min-height: 1000px;
+}
+
+body {
+  background-color: var(--bg);
+}
+
+.navbar {
+  background-color: #fff;
+  box-shadow: 0px 4px 18px -7px rgba(0, 0, 0, 0.15);
+  position: fixed;
+  /* overflow: hidden; */
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+
+.navbar .navbar-brand {
+  padding-left: 30px;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.navbar .navbar-brand img {
+  margin-right: 20px;
+}
+
+.navbar .navbar-nav {
+  margin-right: -10px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.navbar .navbar-nav a {
+  margin-right: 50px;
+}
+
+.navbar .navbar-nav .login {
+  /* background-color: var(--primary);
+  color: var(--bg); */
+  border-radius: 50%;
+  width: 85px;
+  text-align: center;
+}
+
+.navbar .profile-nav .imgnavbar {
+  border-radius: 50%;
+}
+
+.hero .jumbotron {
+  margin-top: 164px;
+  display: flex;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.hero .jumbotron .left-side {
+  /* flex: 2 2 30rem; */
+  /* flex-shrink: 10; */
+  flex-grow: 10;
+  /* margin-top: 100px; */
+}
+
+.nominal a button {
+  padding-left: 20px;
+  /* text-align: center; */
+}
+
+/* .sembilan p {
+  margin-left: 20px;
+}
+
+.sembilan input {
+  margin-left: 20px;
+} */
+
+.metode-pembayaran button {
+  padding-right: 20px;
+}
+
+/* .form .transferbank option {
+  padding-left: 20px;
+} */
+
+.satu {
+  position: absolute;
+  width: 863px;
+  height: 59px;
+  left: 470px;
+  top: 149px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 45px;
+  color: #000000;
+}
+.dua {
+  position: absolute;
+  width: 298px;
+  height: 33px;
+  left: 66px;
+  top: 213px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  color: #000000;
+}
+.button {
+  position: absolute;
+  width: 321px;
+  height: 63px;
+  left: 66px;
+  top: 257px;
+  background: #b6e5ff;
+  border-radius: 10px;
+}
+button::after {
+  background-color: #1e1e1e;
+}
+.tiga {
+  position: absolute;
+  width: 321px;
+  height: 63px;
+  left: 66px;
+  top: 257px;
+  background: #b6e5ff;
+  border-radius: 10px;
+  text-align: left;
+  border: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 33px;
+  color: #000000;
+}
+.empat {
+  position: absolute;
+  width: 321px;
+  height: 63px;
+  left: 66px;
+  top: 355px;
+  border: none;
+  background: #b6e5ff;
+  border-radius: 10px;
+  text-align: left;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 33px;
+  color: #000000;
+}
+.lima {
+  position: absolute;
+  width: 321px;
+  height: 63px;
+  left: 66px;
+  top: 459px;
+  border: none;
+  background: #b6e5ff;
+  border-radius: 10px;
+  text-align: left;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 33px;
+  color: #000000;
+}
+.enam {
+  position: absolute;
+  width: 321px;
+  height: 63px;
+  left: 66px;
+  top: 563px;
+  border: none;
+  background: #b6e5ff;
+  border-radius: 10px;
+  text-align: left;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 33px;
+  color: #000000;
+}
+.gambarmid {
+  position: absolute;
+  width: 603px;
+  height: 363px;
+  left: 475px;
+  top: 213px;
+}
+.tujuh {
+  position: absolute;
+  width: 298px;
+  height: 33px;
+  left: 500px;
+  top: 592px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  color: #000000;
+}
+.delapan {
+  position: absolute;
+  width: 298px;
+  height: 33px;
+  left: 66px;
+  top: 654px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  color: #000000;
+}
+.sembilan {
+  position: absolute;
+  width: 321px;
+  height: 63px;
+  left: 66px;
+  top: 707px;
+  background: #b6e5ff;
+  border-radius: 10px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  color: #000000;
+}
+.input {
+  border: none;
+  outline: none;
+  background: none;
+  text-align: left;
+  margin-top: 3%;
+}
+.sepuluh {
+  position: absolute;
+  width: 298px;
+  height: 33px;
+  left: 66px;
+  top: 784px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  color: #000000;
+}
+.sebelas {
+  position: absolute;
+  width: 275px;
+  height: 46px;
+  left: 490px;
+  top: 654px;
+  background: #dcecf5;
+  border: none;
+  border-radius: 10px;
+  font-family: "Poppins";
+  text-align: right;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  color: #000000;
+}
+.qrs {
+  border-radius: 0%;
+  position: absolute;
+  width: 69px;
+  height: 26px;
+  left: 504px;
+  top: 662px;
+}
+.duabelas {
+  position: absolute;
+  width: 272px;
+  height: 46px;
+  left: 899px;
+  top: 654px;
+  background: #dcecf5;
+  border-radius: 10px;
+  border: none;
+  text-align: right;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  color: #000000;
+}
+.ovo {
+  border-radius: 0%;
+  position: absolute;
+  width: 73px;
+  height: 23px;
+  left: 916px;
+  top: 666px;
+}
+.tigabelas {
+  position: absolute;
+  width: 272px;
+  height: 46px;
+  left: 492px;
+  top: 730px;
+  border: none;
+  text-align: right;
+  background: #dcecf5;
+  border-radius: 10px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  color: #000000;
+}
+.gopay {
+  border-radius: 0%;
+  position: absolute;
+  width: 88px;
+  height: 18px;
+  left: 504px;
+  top: 744px;
+}
+.empatbelas {
+  position: absolute;
+  width: 272px;
+  height: 46px;
+  left: 899px;
+  top: 730px;
+  border: none;
+  background: #dcecf5;
+  border-radius: 10px;
+  text-align: right;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  color: #000000;
+}
+.linkaja {
+  border-radius: 0%;
+  position: absolute;
+  width: 31px;
+  height: 31px;
+  left: 916px;
+  top: 737px;
+}
+.limabelas {
+  position: absolute;
+  width: 272px;
+  height: 46px;
+  left: 492px;
+  top: 807px;
+  background: #dcecf5;
+  border: none;
+  text-align: right;
+  border-radius: 10px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  color: #000000;
+}
+.dana {
+  border-radius: 0%;
+  position: absolute;
+  width: 84px;
+  height: 23px;
+  left: 504px;
+  top: 819px;
+}
+.enambelas {
+  position: absolute;
+  width: 272px;
+  height: 46px;
+  left: 899px;
+  top: 806px;
+  background: #dcecf5;
+  border-radius: 10px;
+}
+.share {
+  position: absolute;
+  width: 151px;
+  height: 56px;
+  left: 1231px;
+  top: 135px;
+  text-align: center;
+  background: #61b3ff;
+  border-radius: 10px;
+  color: #ffffff;
+  border: none;
+}
+.shareimg {
+  position: absolute;
+  width: 17px;
+  height: 25px;
+  left: 1248px;
+  top: 150px;
+}
+.transferbank {
+  position: absolute;
+  width: 272px;
+  height: 46px;
+  left: 899px;
+  top: 806px;
+  border: none;
+  background: #dcecf5;
+  border-radius: 10px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  color: #000000;
+}
+.tujuhbelas {
+  position: absolute;
+  width: 275px;
+  height: 46px;
+  left: 705px;
+  top: 925px;
+  background: #61b3ff;
+  border-radius: 10px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  color: #ffffff;
+  border: none;
+}

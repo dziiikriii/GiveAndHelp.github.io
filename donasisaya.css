@@ -1,0 +1,121 @@
+:root {
+    --primary: #61b3ff;
+    --bg: #f6fbff;
+    --text: #1e1e1e;
+  }
+  
+  * {
+    font-family: "Poppins", sans-serif;
+  }
+  
+  html {
+    min-height: 1000px;
+  }
+  
+  body {
+    background-color: var(--bg);
+  }
+  
+  .navbar {
+    background-color: #fff;
+    box-shadow: 0px 4px 18px -7px rgba(0, 0, 0, 0.15);
+    position: fixed;
+    /* overflow: hidden; */
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+  }
+  
+  .navbar .navbar-brand {
+    padding-left: 30px;
+    font-weight: bold;
+    font-size: 22px;
+  }
+  
+  .navbar .navbar-brand img {
+    margin-right: 20px;
+  }
+  
+  .navbar .navbar-nav {
+    margin-right: -10px;
+    font-weight: 500;
+    font-size: 16px;
+  }
+  
+  .navbar .navbar-nav a {
+    margin-right: 50px;
+  }
+  
+  .navbar .navbar-nav .login {
+    /* background-color: var(--primary);
+    color: var(--bg); */
+    border-radius: 50%;
+    width: 85px;
+    text-align: center;
+  }
+
+  .navbar .profile-nav .imgnavbar {
+    border-radius: 50%;
+  }
+  
+  .hero .jumbotron {
+    margin-top: 164px;
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  
+  .hero .jumbotron .left-side {
+    /* flex: 2 2 30rem; */
+    /* flex-shrink: 10; */
+    flex-grow: 10;
+    /* margin-top: 100px; */
+  }
+
+/* donasisaya */
+.icondonasi{
+  height: 155px;
+  width: 297px;
+}
+
+.body{
+  background: #f7f7ff;
+  margin-top:20px;
+}
+.posisiatas {
+  margin-top:  45px;
+}
+.card {
+  margin-top: 120px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #ffffff;
+  background-clip: border-box;
+  border: 0 solid transparent;
+  border-radius: .25rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 6px 0 rgb(218 218 253 / 65%), 0 2px 6px 0 rgb(206 206 238 / 54%);
+}
+.me-2 {
+  margin-right: .5rem!important;
+}
+
+.gantifontfoto{
+font-size: 12px;
+}
+.card ul li {
+align-items: center;
+}
+
+/* .card ul li span {
+ margin-left: 80px;
+} */
+
+.card ul li h6  {
+margin-left: 20px;
+}
+

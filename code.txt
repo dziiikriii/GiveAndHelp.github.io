@@ -1,0 +1,187 @@
+ <!-- main start -->
+    <section class="main-donation">
+      <div class="left-side-donation">
+        <h3>Anak Desa Wetankulon Rawan Stunting</h3>
+
+        <!-- bar start -->
+        <div class="progress">
+          <div
+            class="progress-bar w-75"
+            role="progressbar"
+            aria-valuenow="75"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          ></div>
+        </div>
+        <!-- bar end -->
+
+        <h4>Rp 572.832.000</h4>
+
+        <p class="lead">
+          <a class="btn btn-primary btn-lg" href="donation.html" role="button"
+            >Donasi Sekarang</a
+          >
+        </p>
+
+        <div class="share">
+          <i class="material-symbols-rounded">share</i>
+          <a href="#">Bagikan</a>
+        </div>
+
+        <div class="kabar-terkini">
+          <a href="#"
+            >Kabar Terkini
+            <span class="material-symbols-rounded next"
+              >arrow_forward_ios</span
+            ></a
+          >
+        </div>
+
+        <div class="laporan-donasi">
+          <a href="#">Laporan Donasi <span class="material-symbols-rounded">arrow_forward_ios</span></a>
+      </div>
+
+      <div class="right-side-donation">
+        <div class="donasi-icon">
+          <p><span class="material-symbols-rounded">volunteer_activism</span><strong>20.000</strong> donasi</p>
+        </div>
+        <div class="donasi-icon">
+          <p><span class="material-symbols-rounded">favorite</span><strong>20.000</strong> terbantu</p>
+        </div>
+        <div class="donasi-icon">
+          <p><span class="material-symbols-rounded">payments</span><strong>2x</strong> pencairan dana</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- main end -->
+
+    <!-- footer start -->
+    <footer>
+      <div class="socials">
+        <a href="#"><i data-feather="instagram"></i></a>
+        <a href="#"><i data-feather="twitter"></i></a>
+        <a href="#"><i data-feather="facebook"></i></a>
+      </div>
+
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#menu">Donasi<a>
+        <a href="#about">Tentang Kami<a>
+      </div>
+
+      <div class="credit">
+        <p><span>GiveAndHelp</span> | &copy; 2023</p>
+      </div>
+    </footer>
+    <!-- footer end -->
+
+.main-donation .left-side-donation {
+  margin-left: 50px;
+}
+
+.main-donation .left-side-donation h3 {
+  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.main-donation .left-side-donation h4 {
+  font-weight: medium;
+  font-size: 1.3rem;
+}
+
+.main-donation .left-side-donation .lead .btn {
+  background-color: var(--primary);
+  border: none;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.main-donation .left-side-donation .progress {
+  /* max-width: 50%; */
+  margin-bottom: 20px;
+}
+
+.main-donation .left-side-donation .progress .progress-bar {
+  background-color: var(--primary);
+}
+
+.main-donation .left-side-donation .share {
+  background-color: var(--primary);
+  width: 150px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  padding: 10px 20px;
+  color: var(--bg);
+  border-radius: 8px;
+  opacity: 75%;
+}
+
+.main-donation .left-side-donation .share a {
+  text-decoration: none;
+  color: var(--bg);
+}
+
+.main-donation .left-side-donation .kabar-terkini {
+  background-color: var(--primary);
+  width: 500px;
+  text-align: start;
+  padding: 10px 20px;
+  color: var(--bg);
+  border-radius: 8px;
+  opacity: 75%;
+  margin-top: 30px;
+}
+
+.main-donation .left-side-donation .kabar-terkini a {
+  text-decoration: none;
+  color: var(--bg);
+}
+
+.main-donation .left-side-donation .laporan-donasi {
+  background-color: var(--primary);
+  width: 500px;
+  text-align: start;
+  padding: 10px 20px;
+  color: var(--bg);
+  border-radius: 8px;
+  opacity: 75%;
+  margin-top: 30px;
+}
+
+.main-donation .left-side-donation .laporan-donasi a {
+  text-decoration: none;
+  color: var(--bg);
+}
+
+.material-symbols-rounded {
+  font-variation-settings: "FILL" 1, "wght" 700, "GRAD" 0, "opsz" 48;
+}
+
+.main-donation {
+  display: flex;
+  /* width: 100; */
+  /* flex-direction: row; */
+  /* grid-template-rows: auto; */
+}
+
+.main-donation .right-side-donation {
+  /* display: flex; */
+  /* float: right; */
+  /* flex-basis: 50%; */
+  /* flex: 1 1 30rem; */
+  /* margin-left: 800px;
+  margin-top: -400px; */
+  /* margin-bottom: 400px; */
+}
+
+.main-donation .left-side-donation {
+  /* flex-basis: 50%; */
+}
+
+.main-donation .left-side-donation .laporan-donasi span {
+  text-align: center;
+}

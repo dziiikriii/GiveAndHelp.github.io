@@ -1,0 +1,28 @@
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #ffffff;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  /* max-width: 100%;
+  max-height: 100%; */
+}
+
+.fontlogin {
+  font-family: "Poppins", sans-serif;
+}
+
+.login-img {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  margin-left: 100px;
+}
+
+a {
+  text-decoration: none;
+}

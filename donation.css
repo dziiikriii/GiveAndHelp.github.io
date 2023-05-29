@@ -1,0 +1,137 @@
+:root {
+  --primary: #61b3ff;
+  --bg: #f6fbff;
+  --text: #1e1e1e;
+}
+
+html {
+  /* min-height: 2000px; */
+  scroll-behavior: smooth;
+}
+
+.carousel {
+  margin-top: -60px;
+  margin-bottom: 50px;
+}
+
+.main-donation {
+  margin-left: 50px;
+  /* display: flex; */
+}
+
+/* .main-donation .left-side-donation {
+  flex-basis: 50%;
+} */
+
+.main-donation .left-side-donation h3 {
+  color: var(--text);
+  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.main-donation .left-side-donation .bar {
+  width: 44%;
+  height: 15px;
+  background-color: #b7b7b7;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.main-donation .left-side-donation .bar .bar2 {
+  width: 75%;
+  height: 15px;
+  background-color: var(--primary);
+  border-radius: 10px;
+}
+
+.main-donation .left-side-donation h5 {
+  margin-bottom: 30px;
+}
+
+.btn-primary {
+  background-color: var(--primary) !important;
+  border: none !important;
+  padding: 10px 20px !important;
+}
+
+.btn-secondary {
+  background-color: var(--primary) !important;
+  opacity: 70% !important;
+  border: none !important;
+  padding: 10px 20px !important;
+}
+
+.main-donation .left-side-donation .donasi-sekarang {
+  margin-bottom: 20px;
+}
+
+.main-donation .left-side-donation .share {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.main-donation .left-side-donation .share span {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.main-donation .left-side-donation .kabar-terkini,
+.main-donation .left-side-donation .laporan-donasi {
+  width: 35%;
+  margin-top: 10px;
+  font-size: 1.1rem;
+  text-align: left;
+}
+
+.main-donation .left-side-donation .kabar-terkini span,
+.main-donation .left-side-donation .laporan-donasi span {
+  font-size: 65px;
+  vertical-align: middle;
+  text-align: right;
+  margin-left: 280px;
+  /* float: right; */
+}
+
+.main-donation .left-side-donation .laporan-donasi span {
+  margin-left: 255px;
+}
+
+.btn-success {
+  background-color: var(--primary) !important;
+  opacity: 70% !important;
+  border: none !important;
+  padding: 0px 20px !important;
+}
+
+/* .main-donation .left-side-donation .laporan-donasi {
+  width: 35%;
+  margin-top: 25px;
+} */
+
+.main-donation .right-side-donation {
+  font-size: 1.3rem;
+}
+
+.main-donation .right-side-donation span {
+  color: var(--primary);
+  font-size: 3.2rem;
+  vertical-align: middle;
+  margin-right: 25px;
+  /* margin-top: 25px; */
+}
+
+.main-donation .right-side-donation .bar-terbantu,
+.main-donation .right-side-donation .bar-pencairan {
+  margin-top: 50px;
+}
+
+.main-donation .right-side-donation {
+  float: right;
+  margin-top: -300px;
+  margin-right: 400px;
+}
+
+footer {
+  margin-top: 70px;
+}
