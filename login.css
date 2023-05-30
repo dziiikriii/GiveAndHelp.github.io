@@ -16,13 +16,10 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-.login-img {
-  top: 0;
-  left: 0;
-  bottom: 0;
-  margin-left: 100px;
-}
-
 a {
   text-decoration: none;
+}
+
+.background {
+  background-color: #add8ff;
 }
