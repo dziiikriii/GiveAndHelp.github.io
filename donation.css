@@ -5,7 +5,6 @@
 }
 
 html {
-  /* min-height: 2000px; */
   scroll-behavior: smooth;
 }
 
@@ -16,12 +15,7 @@ html {
 
 .main-donation {
   margin-left: 50px;
-  /* display: flex; */
 }
-
-/* .main-donation .left-side-donation {
-  flex-basis: 50%;
-} */
 
 .main-donation .left-side-donation h3 {
   color: var(--text);
@@ -79,19 +73,31 @@ html {
 .main-donation .left-side-donation .kabar-terkini,
 .main-donation .left-side-donation .laporan-donasi {
   width: 35%;
+  height: 45px;
   margin-top: 10px;
   font-size: 1.1rem;
   text-align: left;
 }
 
-.main-donation .left-side-donation .kabar-terkini span,
+.main-donation .left-side-donation .kabar-terkini p,
+.main-donation .left-side-donation .laporan-donasi p {
+  margin-top: 10px;
+}
+
+.main-donation .left-side-donation .kabar-terkini span {
+  font-size: 65px;
+  margin-top: -55px;
+  /* margin-bottom: 10px; */
+  margin-left: 285px;
+}
+
+/* .main-donation .left-side-donation .kabar-terkini span,
 .main-donation .left-side-donation .laporan-donasi span {
   font-size: 65px;
   vertical-align: middle;
   text-align: right;
   margin-left: 280px;
-  /* float: right; */
-}
+} */
 
 .main-donation .left-side-donation .laporan-donasi span {
   margin-left: 255px;
@@ -104,11 +110,6 @@ html {
   padding: 0px 20px !important;
 }
 
-/* .main-donation .left-side-donation .laporan-donasi {
-  width: 35%;
-  margin-top: 25px;
-} */
-
 .main-donation .right-side-donation {
   font-size: 1.3rem;
 }
@@ -118,7 +119,6 @@ html {
   font-size: 3.2rem;
   vertical-align: middle;
   margin-right: 25px;
-  /* margin-top: 25px; */
 }
 
 .main-donation .right-side-donation .bar-terbantu,
@@ -134,4 +134,143 @@ html {
 
 footer {
   margin-top: 70px;
+  /* bottom: 0; */
+  /* z-index: 99; */
+}
+
+/* Media Queries */
+
+/* laptop */
+/* @media (max-width: 1366px) {
+  html {
+    font-size: 75%;
+  }
+} */
+
+@media (max-width: 768px) {
+  html {
+    font-size: 62.5%;
+  }
+
+  .navbar .nav-item {
+    margin-left: 30px;
+    font-size: 1.2rem;
+  }
+
+  .navbar button {
+    margin-right: 25px;
+  }
+
+  .navbar .navbar-brand {
+    font-size: 1.8rem;
+  }
+
+  .navbar .navbar-brand img {
+    width: 38px;
+    height: 30px;
+  }
+
+  .carousel img {
+    margin-top: 100px;
+  }
+
+  .carousel .carousel-control-next-icon,
+  .carousel .carousel-control-prev-icon {
+    margin-top: 100px;
+  }
+
+  /* .main-donation .left-side-donation {
+    margin-bottom: 500px;
+  } */
+
+  .main-donation .left-side-donation h3 {
+    width: 50%;
+  }
+
+  .main-donation .left-side-donation h5 {
+    margin-top: -10px;
+  }
+
+  .main-donation .left-side-donation .share {
+    height: 35px;
+  }
+
+  .main-donation .left-side-donation .share span {
+    font-size: 1.7rem;
+  }
+
+  .main-donation .left-side-donation .kabar-terkini,
+  .main-donation .left-side-donation .laporan-donasi {
+    height: 35px;
+    width: 43%;
+  }
+
+  .main-donation .left-side-donation .kabar-terkini p,
+  .main-donation .left-side-donation .laporan-donasi p {
+    margin-top: 10px;
+  }
+
+  .main-donation .left-side-donation .kabar-terkini span,
+  .main-donation .left-side-donation .laporan-donasi span {
+    font-size: 4.5rem;
+    margin-top: -60px;
+    margin-left: 235px;
+  }
+
+  .main-donation .right-side-donation {
+    margin-left: 400px;
+    margin-top: -230px;
+    /* width: 50%; */
+    width: 300px;
+    /* right: 0; */
+    float: left;
+  }
+
+  @media (max-width: 450px) {
+    html {
+      font-size: 55%;
+    }
+
+    .carousel img {
+      margin-top: 100px;
+    }
+
+    .carousel .carousel-control-prev-icon,
+    .carousel .carousel-control-next-icon {
+      margin-top: 100px;
+    }
+
+    .main-donation .left-side-donation h3 {
+      width: 100%;
+    }
+
+    .main-donation .left-side-donation .bar,
+    .main-donation .left-side-donation .bar2 {
+      width: 90%;
+      margin-right: 15px;
+    }
+
+    .main-donation .left-side-donation .kabar-terkini, 
+    .main-donation .left-side-donation .laporan-donasi {
+      width: 90%;
+    }
+
+    .main-donation .right-side-donation {
+      margin-top: 50px;
+      margin-left: 5px;
+      width: 200px;
+      /* margin-bottom: 100px; */
+    }
+
+    footer {
+      visibility: hidden;
+      /* margin-top: 100px; */
+      /* height: 35px; */
+      /* bottom: 0; */
+    }
+
+    /* footer p {
+      height: 35px;
+    } */
+  }
 }

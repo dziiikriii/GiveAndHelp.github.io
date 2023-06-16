@@ -276,77 +276,98 @@ footer .credit span {
     font-size: 62.5%;
   }
 
-  #hamburger-menu {
-    display: inline-block;
-  }
-
-  .navbar .navbar-nav {
-    position: absolute;
-    top: 100%;
-    right: -100%;
-    background-color: #fff;
-    width: 30rem;
-    height: 100vh;
-    transition: 0.3s ease-in-out;
-  }
-
-  .navbar .navbar-nav.active {
-    right: 0;
-  }
-
-  .navbar .navbar-nav a {
-    color: var(--bg);
-    display: block;
-    margin: 1.5rem;
-    padding: 0.5rem;
-    font-size: 1.5rem;
-  }
-
-  .navbar .navbar-nav a::after {
-    transform-origin: 0 0;
-  }
-
-  .navbar .navbar-nav a:hover::after {
-    transform: scaleX(0.2);
-  }
-
-  .about .row {
-    flex-wrap: wrap;
-  }
-
-  .about .row .about-img img {
-    height: 24rem;
-    object-fit: cover;
-    object-position: center;
-  }
-
-  .about .row .content {
-    padding: 0;
-  }
-
-  .about .row .content h3 {
-    margin-top: 1rem;
-    font-size: 2rem;
-  }
-
-  .about .row .content p {
-    font-size: 1.4rem;
-  }
-
-  .menu p {
+  .navbar .nav-item {
+    margin-left: 30px;
     font-size: 1.2rem;
   }
 
-  .contact .row {
-    flex-wrap: wrap;
+  .navbar button {
+    margin-right: 25px;
   }
 
-  .contact .row .map {
-    height: 30rem;
+  .navbar .navbar-brand {
+    font-size: 1.8rem;
   }
 
-  .contact .row form {
-    padding-top: 0;
+  .navbar .navbar-brand img {
+    width: 38px;
+    height: 30px;
+  }
+
+  .hero .jumbotron .right-side img {
+    width: 350px;
+    height: 262px;
+    margin-right: -10px;
+  }
+
+  .hero .jumbotron .left-side {
+    margin-top: -30px;
+    margin-left: -25px;
+  }
+
+  .hero .jumbotron .left-side h1 {
+    width: 300px;
+  }
+
+  .hero .jumbotron .left-side .lead {
+    margin-top: -10px;
+    width: 280px;
+  }
+
+  .hero .jumbotron .left-side .lead a {
+    margin-top: -20px;
+  }
+
+  .main {
+    margin-top: 150px;
+    margin-left: -10px;
+    margin-bottom: 100px;
+  }
+
+  .main .stat .stat-1,
+  .stat-2,
+  .stat-3,
+  .stat-4 {
+    width: 150px;
+    height: 150px;
+  }
+
+  .main .stat h3 {
+    font-size: 1.6rem;
+  }
+
+  .main .stat .group-icon {
+    font-size: 35px;
+  }
+
+  .main .stat .love-icon {
+    font-size: 35px;
+  }
+
+  .main .stat .location-icon {
+    font-size: 35px;
+  }
+
+  .main .stat .chart-icon {
+    font-size: 35px;
+  }
+
+  .main-right-side {
+    margin-left: 10px;
+    margin-top: 15px;
+  }
+
+  .main .main-right-side p {
+    width: 250px;
+  }
+
+  footer {
+    width: 100%;
+  }
+
+  .wa {
+    width: 65px;
+    margin-right: -10px;
   }
 }
 
@@ -354,5 +375,94 @@ footer .credit span {
 @media (max-width: 450px) {
   html {
     font-size: 55%;
+  }
+
+  /* .hero .jumbotron .left-side {
+    width: 250px;
+  } */
+
+  .hero .jumbotron .left-side {
+    margin-top: 100px;
+    text-align: center;
+  }
+
+  .hero .jumbotron .left-side h1 {
+    font-size: 2.2rem;
+    width: 250px;
+    margin-left: 50px;
+    margin-top: -20px;
+  }
+
+  .hero .jumbotron .left-side .lead {
+    width: 250px;
+    margin-left: 50px;
+  }
+
+  .hero .jumbotron .right-side img {
+    width: 220px;
+    height: 162px;
+    /* margin-right: -30px; */
+    margin-left: -210px;
+    margin-top: -50px;
+  }
+
+  .main {
+    margin-top: 150px;
+    /* margin-left: -10px; */
+    margin-bottom: 100px;
+  }
+
+  .main .stat {
+    height: 330px;
+    margin-top: -100px;
+    margin-left: 60px;
+  }
+
+  .main .stat .stat-1,
+  .stat-2,
+  .stat-3,
+  .stat-4 {
+    width: 125px;
+    height: 125px;
+  }
+
+  .main .stat h3 {
+    font-size: 1.6rem;
+  }
+
+  .main .stat .group-icon {
+    font-size: 35px;
+    margin-top: -15px;
+  }
+
+  .main .stat .love-icon {
+    font-size: 35px;
+    margin-top: -15px;
+  }
+
+  .main .stat .location-icon {
+    font-size: 35px;
+    margin-top: -15px;
+  }
+
+  .main .stat .chart-icon {
+    font-size: 35px;
+    margin-top: -15px;
+  }
+
+  .main-right-side {
+    margin-left: -290px;
+    margin-top: 250px;
+    text-align: center;
+  }
+
+  .main .main-right-side p {
+    width: 250px;
+    margin-top: 20px;
+  }
+
+  .wa {
+    width: 50px;
+    margin-right: -10px;
   }
 }
