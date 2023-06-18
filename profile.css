@@ -8,10 +8,6 @@
   font-family: "Poppins", sans-serif;
 }
 
-html {
-  min-height: 1000px;
-}
-
 body {
   background-color: var(--bg);
 }
@@ -193,4 +189,14 @@ body {
 
 ul a {
   text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .col-lg-4 .card {
+    margin-top: 75px;
+  }
+
+  .col-lg-8 .card {
+    margin-top: 1px;
+  }
 }

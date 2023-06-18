@@ -1,25 +1,51 @@
 .divider:after,
 .divider:before {
-  content: "";
-  flex: 1;
-  height: 1px;
-  background: #ffffff;
+content: "";
+flex: 1;
+height: 1px;
+background: #ffffff;
 }
 
 body {
-  font-family: "Poppins", sans-serif;
-  /* max-width: 100%;
-  max-height: 100%; */
+    font-family: 'Poppins', sans-serif;
 }
 
-.fontlogin {
-  font-family: "Poppins", sans-serif;
+.fontlogin{
+font-family: 'Poppins', sans-serif;
 }
 
-a {
-  text-decoration: none;
-}
 
-.background {
-  background-color: #add8ff;
+.background{
+    background-color: rgb(200, 236, 255);
+}
+@media(max-width: 450px){
+    .img,
+    .main {
+        padding: 0;
+    }
+
+    .offset-xl-5 .tulisan{
+        margin-left: 185px;
+        margin-top: 20px;
+    }
+    .offset-xl-5 .sign{
+        margin-left: 180px;
+        margin-top: 5px;
+        margin-bottom: 20px;
+    }
+    .form-control-lg{
+        margin-left: 30px;
+        margin-right: 20px;
+        width: 90%;
+    }
+    .form-label{
+        margin-left: 32px;
+    }
+
+    .btn-login {
+      margin-left: 200px;
+      margin-bottom: 50px;
+      padding-right: 25px;
+      padding-left: 25px;
+    }
 }

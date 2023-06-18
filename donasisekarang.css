@@ -72,28 +72,6 @@ body {
   flex-grow: 10;
   /* margin-top: 100px; */
 }
-
-.nominal a button {
-  padding-left: 20px;
-  /* text-align: center; */
-}
-
-/* .sembilan p {
-  margin-left: 20px;
-}
-
-.sembilan input {
-  margin-left: 20px;
-} */
-
-.metode-pembayaran button {
-  padding-right: 20px;
-}
-
-/* .form .transferbank option {
-  padding-left: 20px;
-} */
-
 .satu {
   position: absolute;
   width: 863px;
@@ -132,6 +110,25 @@ body {
 button::after {
   background-color: #1e1e1e;
 }
+.tiga:hover,
+.empat:hover,
+.lima:hover,
+.enam:hover {
+  background-color: rgb(83, 177, 253);
+  color: black;
+}
+.sebelas:hover,
+.duabelas:hover,
+.tigabelas:hover,
+.empatbelas:hover,
+.limabelas:hover {
+  background-color: rgb(83, 177, 253);
+  color: black;
+}
+.tujuhbelas:hover {
+  background-color: #083157;
+}
+
 .tiga {
   position: absolute;
   width: 321px;
@@ -452,4 +449,460 @@ button::after {
   line-height: 33px;
   color: #ffffff;
   border: none;
+}
+@media (max-width: 1200px) {
+  .satu,
+  .dua,
+  .button,
+  .tiga,
+  .empat,
+  .lima,
+  .enam,
+  .gambarmid,
+  .tujuh,
+  .delapan,
+  .sembilan,
+  .sepuluh,
+  .sebelas,
+  .duabelas,
+  .tigabelas,
+  .empatbelas,
+  .limabelas,
+  .enambelas,
+  .transferbank,
+  .tujuhbelas .qrs,
+  .dana,
+  .gopay,
+  .ovo,
+  .linkaja {
+    position: static;
+    width: auto;
+    height: auto;
+    left: auto;
+    top: auto;
+    font-size: smaller;
+  }
+  .satu {
+    left: 40%;
+    top: 12%;
+    position: absolute;
+  }
+  .gambarmid {
+    width: 452px;
+    position: absolute;
+    padding: 0;
+    left: 30%;
+    top: 20%;
+    max-height: 253px;
+  }
+  .dua {
+    top: 20%;
+    position: absolute;
+    left: 3%;
+  }
+
+  .tiga {
+    width: 121px;
+    height: 33pxpx;
+    position: absolute;
+    left: 3%;
+    top: 25%;
+    border-radius: 7px;
+  }
+
+  .empat {
+    width: 121px;
+    height: 33px;
+    position: absolute;
+    left: 3%;
+    top: 35%;
+    border-radius: 7px;
+  }
+
+  .lima {
+    width: 121px;
+    height: 33px;
+    position: absolute;
+    left: 3%;
+    top: 45%;
+    border-radius: 7px;
+  }
+
+  .enam {
+    width: 121px;
+    height: 33px;
+    position: absolute;
+    left: 3%;
+    top: 55%;
+    border-radius: 7px;
+  }
+  .delapan {
+    left: 3%;
+    top: 63%;
+    position: absolute;
+  }
+  .sembilan {
+    position: absolute;
+    width: 161px;
+    left: 3%;
+    top: 68%;
+    border-radius: 7px;
+    height: 33px;
+  }
+  .sepuluh {
+    top: 71%;
+  }
+  .input {
+    border: none;
+    outline: none;
+    background: none;
+    text-align: left;
+    margin-top: 0%;
+    position: absolute;
+  }
+  .sepuluh {
+    position: absolute;
+    top: 73%;
+    left: 3%;
+  }
+  .tujuh {
+    top: 58%;
+    position: absolute;
+    left: 30%;
+  }
+  .sebelas,
+  .duabelas,
+  .tigabelas,
+  .empatbelas,
+  .limabelas,
+  .transferbank {
+    position: absolute;
+    width: 165px;
+    height: 36px;
+  }
+  .sebelas {
+    top: 63%;
+    left: 30%;
+  }
+  .duabelas {
+    top: 70%;
+    left: 30%;
+  }
+  .tigabelas {
+    top: 77%;
+    left: 30%;
+  }
+  .empatbelas {
+    top: 63%;
+    left: 60%;
+  }
+  .limabelas {
+    top: 70%;
+    left: 60%;
+  }
+  .transferbank {
+    top: 77%;
+    left: 60%;
+  }
+  .tujuhbelas {
+    top: 87%;
+    left: 45%;
+    position: absolute;
+    border-radius: 7px;
+    width: 175px;
+    height: 36px;
+    font-size: smaller;
+  }
+  .qrs,
+  .dana,
+  .linkaja,
+  .ovo,
+  .gopay {
+    width: 25px;
+    height: 15px;
+  }
+  .qrs {
+    top: 65%;
+    left: 32%;
+    position: absolute;
+  }
+  .ovo {
+    top: 72%;
+    left: 32%;
+    position: absolute;
+  }
+  .gopay {
+    top: 79%;
+    left: 32%;
+    position: absolute;
+  }
+  .linkaja {
+    top: 65%;
+    left: 62%;
+    position: absolute;
+  }
+  .dana {
+    top: 72%;
+    left: 62%;
+    position: absolute;
+  }
+
+  @media (max-width: 680px) {
+    /* Pengaturan ukuran font dan tata letak elemen pada layar ponsel */
+    .satu,
+    .dua,
+    .tiga,
+    .empat,
+    .lima,
+    .enam,
+    .gambarmid,
+    .tujuh,
+    .delapan,
+    .sembilan,
+    .sepuluh,
+    .sebelas,
+    .duabelas,
+    .tigabelas,
+    .empatbelas,
+    .limabelas,
+    .transferbank,
+    .tujuhbelas,
+    .qrs,
+    .dana,
+    .gopay,
+    .ovo,
+    .linkaja {
+      font-size: x-small;
+    }
+
+    /* Pengaturan posisi dan tata letak elemen pada layar ponsel */
+    .satu {
+      left: 39%;
+      top: 12%;
+      position: absolute;
+    }
+
+    .gambarmid {
+      width: 302px;
+      position: absolute;
+      padding: 0;
+      left: 30%;
+      top: 20%;
+      max-height: 253px;
+    }
+
+    .dua {
+      top: 20%;
+      position: absolute;
+      left: 3%;
+    }
+
+    .tiga,
+    .empat,
+    .lima,
+    .enam {
+      width: 101px;
+      height: 33px;
+      position: absolute;
+    }
+
+    .tiga {
+      left: 3%;
+      top: 25%;
+      border-radius: 7px;
+    }
+
+    .empat {
+      left: 3%;
+      top: 32%;
+      border-radius: 7px;
+    }
+
+    .lima {
+      left: 3%;
+      top: 39%;
+      border-radius: 7px;
+    }
+
+    .enam {
+      left: 3%;
+      top: 46%;
+      border-radius: 7px;
+    }
+
+    .delapan {
+      left: 3%;
+      top: 58%;
+      position: absolute;
+      text-align: center;
+    }
+
+    .sembilan {
+      position: absolute;
+      width: 131px;
+      left: 3%;
+      top: 63%;
+      border-radius: 7px;
+      height: 33px;
+    }
+
+    .input {
+      border: none;
+      outline: none;
+      background: none;
+      text-align: left;
+      margin-top: 0%;
+      position: absolute;
+    }
+
+    .sepuluh {
+      position: absolute;
+      top: 68%;
+      left: 3%;
+      font-size: xx-small;
+    }
+
+    .tujuh {
+      top: 58%;
+      position: absolute;
+      left: 30%;
+    }
+
+    .sebelas,
+    .duabelas,
+    .tigabelas,
+    .empatbelas,
+    .limabelas,
+    .transferbank {
+      position: absolute;
+      width: 105px;
+      height: 36px;
+    }
+
+    .sebelas {
+      top: 63%;
+      left: 30%;
+    }
+
+    .duabelas {
+      top: 70%;
+      left: 30%;
+    }
+
+    .tigabelas {
+      top: 77%;
+      left: 30%;
+    }
+
+    .empatbelas {
+      top: 63%;
+      left: 60%;
+    }
+
+    .limabelas {
+      top: 70%;
+      left: 60%;
+    }
+
+    .transferbank {
+      top: 77%;
+      left: 60%;
+    }
+
+    .tujuhbelas {
+      top: 87%;
+      left: 39%;
+      position: absolute;
+      border-radius: 7px;
+      width: 175px;
+      height: 36px;
+      font-size: smaller;
+    }
+
+    .qrs,
+    .dana,
+    .linkaja,
+    .ovo,
+    .gopay {
+      width: 25px;
+      height: 15px;
+    }
+
+    .qrs {
+      top: 65%;
+      left: 32%;
+      position: absolute;
+    }
+
+    .ovo {
+      top: 72%;
+      left: 32%;
+      position: absolute;
+    }
+
+    .gopay {
+      top: 79%;
+      left: 32%;
+      position: absolute;
+    }
+
+    .linkaja {
+      top: 65%;
+      left: 62%;
+      position: absolute;
+    }
+
+    .dana {
+      top: 72%;
+      left: 62%;
+      position: absolute;
+    }
+  }
+
+  @media (max-width: 540px) {
+    /* Pengaturan tata letak elemen pada layar ponsel dengan lebar yang lebih sempit */
+    .gambarmid {
+      width: 252px;
+      left: 38%;
+      top: 22%;
+    }
+
+    .sebelas,
+    .duabelas,
+    .tigabelas,
+    .tujuh {
+      left: 38%;
+    }
+
+    .empatbelas,
+    .limabelas,
+    .transferbank {
+      left: 69%;
+    }
+
+    .qrs,
+    .ovo,
+    .gopay {
+      left: 40%;
+    }
+
+    .linkaja,
+    .dana {
+      left: 71%;
+    }
+  }
+}
+@media (max-width: 480px) {
+  /* Mengatur grid container */
+  body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    padding: 10px;
+  }
+
+  /* Mengatur lebar maksimum elemen agar tidak melebihi lebar layar */
+  .container {
+    max-width: 100%;
+  }
 }

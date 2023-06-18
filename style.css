@@ -9,7 +9,6 @@
 }
 
 html {
-  /* min-height: 2000px; */
   scroll-behavior: smooth;
 }
 
@@ -21,7 +20,6 @@ body {
   background-color: #fff;
   box-shadow: 0px 4px 18px -7px rgba(0, 0, 0, 0.15);
   position: fixed;
-  /* overflow: hidden; */
   top: 0;
   left: 0;
   right: 0;
@@ -72,10 +70,7 @@ body {
 }
 
 .hero .jumbotron .left-side {
-  /* flex: 2 2 30rem; */
-  /* flex-shrink: 10; */
   flex-grow: 10;
-  /* margin-top: 100px; */
 }
 
 .hero .jumbotron .left-side h1 {
@@ -107,10 +102,8 @@ body {
 }
 
 .hero .jumbotron .hero-img {
-  /* float: right; */
   margin-top: 15px;
   margin-right: 50px;
-  /* border-radius: 50%; */
 }
 
 .hero .jumbotron .right-side {
@@ -139,15 +132,6 @@ body {
   margin-bottom: 10px;
 }
 
-/* /* .main .stat {
-  max-width: 50%;
-
-  flex-basis: 50%;
-  flex-wrap: wrap;
-  padding: 10px;
-  box-sizing: border-box;
-} */
-
 .main .stat h3 {
   font-weight: bold;
   font-size: 2rem;
@@ -174,13 +158,6 @@ body {
   font-size: 45px;
 }
 
-/* .main .main-right-side {
-  flex-basis: 50%;
-  flex-wrap: wrap;
-  padding: 10px;
-  box-sizing: border-box;
-} */
-
 .main .main-right-side h1 {
   font-weight: bold;
 }
@@ -197,22 +174,15 @@ body {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  /* grid-gap: 10px; */
   padding: 10px;
   box-sizing: border-box;
   margin-left: 50px;
 }
 
-/* .stat > div {
-  background-color: #ccc;
-  padding: 10px;
-} */
-
 .main-right-side {
   flex-basis: 30%;
   padding: 10px;
   box-sizing: border-box;
-  /* float: right; */
   margin-left: 150px;
   margin-top: 15px;
 }
@@ -225,15 +195,6 @@ footer {
   margin-top: 3rem;
   padding-top: 2.3rem;
 }
-
-/* footer .socials {
-  padding: 1rem 0;
-}
-
-footer .socials a {
-  color: #fff;
-  margin: 1rem;
-} */
 
 footer .links {
   margin-bottom: 1.4rem;
@@ -377,10 +338,6 @@ footer .credit span {
     font-size: 55%;
   }
 
-  /* .hero .jumbotron .left-side {
-    width: 250px;
-  } */
-
   .hero .jumbotron .left-side {
     margin-top: 100px;
     text-align: center;
@@ -401,14 +358,12 @@ footer .credit span {
   .hero .jumbotron .right-side img {
     width:190px;
     height: 162px;
-    /* margin-right: -30px; */
-    margin-left: -210px;
+    margin-left: -200px;
     margin-top: -50px;
   }
 
   .main {
     margin-top: 150px;
-    /* margin-left: -10px; */
     margin-bottom: 100px;
   }
 

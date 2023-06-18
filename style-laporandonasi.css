@@ -9,10 +9,6 @@
   font-family: "Poppins", sans-serif;
 }
 
-html {
-  /* min-height: 1000px; */
-}
-
 body {
   background-color: var(--bg);
 }
@@ -21,7 +17,6 @@ body {
   background-color: #fff;
   box-shadow: 0px 4px 18px -7px rgba(0, 0, 0, 0.15);
   position: fixed;
-  /* overflow: hidden; */
   top: 0;
   left: 0;
   right: 0;
@@ -48,8 +43,9 @@ body {
   margin-right: 50px;
 }
 
-.navbar .profile-nav img {
-  border-radius: 50%;
+.navbar .profile-nav,
+img {
+  border-radius: 25%;
 }
 
 .hero .jumbotron {
@@ -60,28 +56,23 @@ body {
 }
 
 .hero .jumbotron .left-side {
-  /* flex: 2 2 30rem; */
-  /* flex-shrink: 10; */
-  flex-grow: 10;
-  /* margin-top: 100px; */
+  flex-grow: 1;
 }
 
 .hero .jumbotron .left-side h1 {
   font-weight: bold;
   font-size: 3rem;
-  width: 35%;
   padding-top: 65px;
   padding-left: 50px;
-  width: 60%;
+  width: 100%;
 }
 
 .hero .jumbotron .lead {
   padding-top: 35px;
   padding-left: 50px;
-  width: 30%;
   font-weight: 400;
   font-size: 1rem;
-  width: 50%;
+  width: 100%;
 }
 
 .hero .jumbotron .lead .btn {
@@ -95,7 +86,6 @@ body {
 }
 
 .hero .jumbotron .hero-img {
-  /* float: right; */
   margin-top: 15px;
   margin-right: 50px;
 }
@@ -115,7 +105,6 @@ body {
 .stat-4 {
   background-color: var(--primary);
   margin: 20px;
-  /* padding: 20px; */
   width: 200px;
   height: 200px;
   align-content: center;
@@ -126,6 +115,17 @@ body {
 .main .stat h3 {
   font-weight: bold;
   font-size: 2rem;
+}
+
+.news-item {
+  height: fit-content;
+  width: fit-content;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+  color: #61b3ff;
+  font-size: 1000%;
 }
 
 .main .stat p {
@@ -142,35 +142,21 @@ h1 {
 #atas {
   margin: 30px 0;
 }
+
 .container {
   display: grid;
-  grid-template-columns: repeat(9, 350px); /* Jumlah dan lebar kolom div */
-  grid-gap: 75px; /* Jarak antar div /*
-    /* flex-direction: row;
-    justify-content: space-around; */
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-gap: 75px;
 }
 
-.container .container-1 p span {
-  font-size: 45px;
-}
-
-.container-1 {
-  overflow: auto;
-}
-.gambar-1 {
-  float: left;
-  margin-right: 30px;
-}
-.container-2 {
-  overflow: auto;
-}
-.gambar-2 {
-  float: left;
-  margin-right: 30px;
-}
+.container-1,
+.container-2,
 .container-3 {
   overflow: auto;
 }
+
+.gambar-1,
+.gambar-2,
 .gambar-3 {
   float: left;
   margin-right: 30px;
@@ -203,6 +189,7 @@ h1 {
   padding: 10px;
   margin-bottom: 10px;
 }
+
 /* Gaya untuk judul item */
 h3 {
   color: #333333;
@@ -212,8 +199,13 @@ h3 {
 p {
   color: #666666;
 }
+
 @media only screen and (max-width: 480px) {
   /* Adjust padding and font size for smaller screens */
+  .hero {
+    margin-top: -150px;
+  }
+
   section {
     padding: 10px;
   }
@@ -223,3 +215,9 @@ p {
     font-size: 20px;
   }
 }
+
+/* footer {
+  background-color: #c0c0c0;
+  padding: 10px;
+  text-align: center;
+} */

@@ -1,167 +1,350 @@
 .navbar {
-    background-color: #fff;
-    box-shadow: 0px 4px 18px -7px rgba(0, 0, 0, 0.15);
-    position: fixed;
-    /* overflow: hidden; */
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 9999;
-  }
-  
-  .navbar .navbar-brand {
-    padding-left: 30px;
-    font-weight: bold;
-    font-size: 22px;
-  }
-  
-  .navbar .navbar-brand img {
-    margin-right: 20px;
-  }
-  
-  .navbar .navbar-nav {
-    margin-right: -10px;
-    font-weight: 500;
-    font-size: 16px;
-  }
-  
-  .navbar .navbar-nav a {
-    margin-right: 50px;
-  }
-  
-  .navbar .navbar-nav .login {
-    background-color: var(--primary);
-    color: var(--bg);
-    border-radius: 25px;
-    width: 85px;
-    text-align: center;
-  }
-  :root {
-    --primary: #61b3ff;
-    --bg: #f6fbff;
-    --text: #1e1e1e;
+  background-color: #fff;
+  box-shadow: 0px 4px 18px -7px rgba(0, 0, 0, 0.15);
+  position: fixed;
+  /* overflow: hidden; */
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+
+.navbar .navbar-brand {
+  padding-left: 30px;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.navbar .navbar-brand img {
+  margin-right: 20px;
+}
+
+.navbar .navbar-nav {
+  margin-right: -10px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.navbar .navbar-nav a {
+  margin-right: 50px;
+}
+
+.navbar .navbar-nav .login {
+  background-color: var(--primary);
+  color: var(--bg);
+  border-radius: 25px;
+  width: 85px;
+  text-align: center;
+}
+:root {
+  --primary: #61b3ff;
+  --bg: #f6fbff;
+  --text: #1e1e1e;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+.satu {
+  position: absolute;
+  width: 720px;
+  height: 96px;
+  left: calc(50% - 720px / 2);
+  top: 160px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 96px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.dua {
+  position: absolute;
+  width: 441px;
+  height: 60px;
+  left: 91px;
+  top: 316px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  /* identical to box height */
+
+  color: #000000;
+}
+.tiga {
+  position: absolute;
+  width: 719px;
+  height: 144px;
+  left: 91px;
+  top: 404px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+
+  color: #000000;
+}
+
+.empat {
+  position: absolute;
+  width: 142px;
+  height: 120px;
+  left: 1046px;
+  top: 324px;
+}
+
+.lima {
+  position: absolute;
+  width: 284px;
+  height: 60px;
+  left: 633px;
+  top: 605px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  /* identical to box height */
+  color: #000000;
+}
+
+.enam {
+  position: absolute;
+  width: 719px;
+  height: 180px;
+  left: 633px;
+  top: 693px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+
+  color: #000000;
+}
+.tujuh {
+  position: absolute;
+  width: 303px;
+  height: 86px;
+  left: 965px;
+  top: 454px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 66px;
+
+  color: #1e1e1e;
+}
+.delapan {
+  position: absolute;
+  width: 308px;
+  height: 308px;
+  left: 150px;
+  top: 597px;
+}
+.sembilan {
+  position: absolute;
+  width: 101px;
+  height: 101px;
+  left: 1281px;
+  top: 869px;
+}
+/* Responsiveness for Desktop and Tablet */
+@media (max-width: 1200px) {
+  .satu,
+  .dua,
+  .tiga,
+  .empat,
+  .lima,
+  .enam,
+  .tujuh,
+  .delapan,
+  .sembilan {
+    position: relative;
+    width: auto;
+    left: auto;
+    top: auto;
+    transform: none;
+    font-size: smaller;
+    padding-top: 50px;
+    margin-left: 5%;
+    font-size: 14px;
   }
   .satu {
+    top: 20%;
+    text-align: center;
+  }
+  .dua,
+  .tiga {
+    max-width: 50%;
+    top: 30%;
+  }
+  .empat {
+    width: 112px;
+    height: auto;
+    left: 70%;
+    top: 18%;
     position: absolute;
-    width: 720px;
-    height: 96px;
-    left: calc(50% - 720px/2);
-    top: 160px;
-    
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 64px;
-    line-height: 96px;
-    /* identical to box height */
-    
-    
-    color: #000000;
-    }
-
-    .dua {position: absolute;
-    width: 441px;
-    height: 60px;
-    left: 91px;
-    top: 316px;
-    
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 40px;
-    line-height: 60px;
-    /* identical to box height */
-    
-    
-    color: #000000;}
-    .tiga {
-      position: absolute;
-      width: 719px;
-      height: 144px;
-      left: 91px;
-      top: 404px;
-      
-      font-family: 'Poppins';
-      font-style: normal;
-      font-weight: 400;
-      font-size: 24px;
-      line-height: 36px;
-      
-      color: #000000;
-    }
-
-    .empat {
-      position: absolute;
-      width: 142px;
-      height: 120px;
-      left: 1046px;
-      top: 324px;
-      
-      background: url(giveandhelp-high-resolution-logo-color-on-transparent-background.png);
-     
-    }
-
-    .lima {
-      position: absolute;
-      width: 284px;
-      height: 60px;
-      left: 633px;
-      top: 605px;
-      
-      font-family: 'Poppins';
-      font-style: normal;
-      font-weight: 600;
-      font-size: 40px;
-      line-height: 60px;
-      /* identical to box height */
-      color: #000000;
-    }
-
-    .enam {      
-      position: absolute;
-      width: 719px;
-      height: 180px;
-      left: 633px;
-      top: 693px;
-      
-      font-family: 'Poppins';
-      font-style: normal;
-      font-weight: 400;
-      font-size: 24px;
-      line-height: 36px;
-      
-      color: #000000;
-
-    }
-    .tujuh {
-      position: absolute;
-      width: 303px;
-      height: 86px;
-      left: 965px;
-      top: 454px;
-      
-      font-family: 'Poppins';
-      font-style: normal;
-      font-weight: 700;
-      font-size: 44px;
-      line-height: 66px;
-      
-      color: #1E1E1E;
-      
-    }
-   .delapan {
+  }
+  .tujuh {
+    left: 71%;
+    top: 34%;
     position: absolute;
-    width: 308px;
-    height: 308px;
-    left: 150px;
-    top: 597px;
-   }
-   .sembilan {
+  }
+  .lima {
+    max-width: 50%;
     position: absolute;
-    width: 101px;
-    height: 101px;
-    left: 1281px;
-    top: 869px;
+    top: 55%;
+    left: 42%;
+  }
+  .enam {
+    max-width: 50%;
+    position: absolute;
+    top: 60%;
+    left: 42%;
+  }
+  .delapan {
+    width: 218px;
+    height: auto;
+    position: absolute;
+    top: 55%;
+    left: auto;
+  }
+  .sembilan {
+    width: 51px;
+    height: auto;
+    position: absolute;
+    left: 90%;
+    top: 90%;
+  }
+}
 
-   }
-  
+/* Responsiveness for Mobile */
+@media (max-width: 769px) {
+  .satu,
+  .dua,
+  .tiga,
+  .empat,
+  .lima,
+  .enam,
+  .tujuh,
+  .delapan,
+  .sembilan {
+    width: auto;
+    position: relative;
+    font-size: smaller;
+    padding-top: 50px;
+  }
+  .satu {
+    top: 20%;
+    text-align: center;
+  }
+  .dua,
+  .tiga {
+    max-width: 50%;
+  }
+  .dua {
+    top: 30%;
+  }
+  .tiga {
+    top: 35%;
+  }
+  .empat {
+    width: 102px;
+    height: auto;
+    left: 65%;
+    top: 20%;
+    position: absolute;
+  }
+  .tujuh {
+    left: 65%;
+    top: 28%;
+    position: absolute;
+  }
+  .lima {
+    max-width: 50%;
+    position: absolute;
+    top: 40%;
+    left: 42%;
+  }
+  .enam {
+    max-width: 50%;
+    position: absolute;
+    top: 45%;
+    left: 42%;
+  }
+  .delapan {
+    width: 150px;
+    height: auto;
+    position: absolute;
+    top: 45%;
+    left: auto;
+  }
+  .sembilan {
+    width: 41px;
+    height: auto;
+    position: absolute;
+    left: 85%;
+    top: 61%;
+  }
+}
+
+@media (max-width: 522px) {
+  .satu,
+  .dua,
+  .tiga,
+  .empat,
+  .lima,
+  .enam,
+  .tujuh,
+  .delapan,
+  .sembilan {
+    font-size: 12px;
+    line-height: 23px;
+  }
+  .delapan {
+    width: 120px;
+    height: auto;
+    top: 50%;
+  }
+  .empat {
+    width: 92px;
+    height: auto;
+  }
+  .sembilan {
+    top: 70%;
+  }
+  .lima {
+    max-width: 50%;
+    position: absolute;
+    top: 43%;
+    left: 42%;
+  }
+  .enam {
+    max-width: 50%;
+    position: absolute;
+    top: 48%;
+    left: 42%;
+  }
+}
+@media (max-width: 330px) {
+  .delapan {
+    width: 100;
+    height: auto;
+  }
+}
