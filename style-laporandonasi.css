@@ -200,6 +200,14 @@ p {
   color: #666666;
 }
 
+@media (max-width: 768px) {
+  .container-1 h3,
+  .container-2 h3,
+  .container-2 h3 {
+    margin-top: 15px;
+  }
+}
+
 @media only screen and (max-width: 480px) {
   /* Adjust padding and font size for smaller screens */
   .hero {
@@ -213,6 +221,16 @@ p {
   h1,
   h2 {
     font-size: 20px;
+  }
+
+  .container-1 h3,
+  .container-2 h3,
+  .container-2 h3 {
+    margin-top: 15px;
+  }
+
+  #atas-kiri {
+    margin-top: -50px;
   }
 }
 

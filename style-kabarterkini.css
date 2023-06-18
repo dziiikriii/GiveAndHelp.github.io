@@ -208,10 +208,20 @@ h3 {
   }
 } */
 
+@media (max-width: 768px) {
+  #news-section {
+    margin-top: -80px;
+  }
+}
+
 @media only screen and (max-width: 480px) {
   /* main {
     margin-top: -200px;
   } */
+
+  #news-section {
+    margin-top: -230px;
+  }
 
   .main {
     margin-top: 10px;
